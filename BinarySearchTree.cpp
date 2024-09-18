@@ -1,4 +1,4 @@
-#include "binary_search_tree.h"
+#include "BinarySearchTree.h"
 #include <iostream>
 
 template<typename T>

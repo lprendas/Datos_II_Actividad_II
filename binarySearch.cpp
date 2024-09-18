@@ -1,4 +1,4 @@
-#include "binary_search.h"
+#include "binarySearch.h"
 
 template<typename T>
 int binarySearch(const std::vector<T>& arr, T key) {
