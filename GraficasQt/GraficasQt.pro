@@ -5,21 +5,22 @@ TARGET = programa
 # Versión mínima requerida de Qt
 QT += core gui charts
 
+
 # Archivos de cabecera (headers)
 HEADERS += \
-    sorting.h \
-    DoublyLinkedList.h \
-    binarySearch.h \
-    BinarySearchTree.h \
-    main.h
+    ../src/sorting.h \
+    ../src/DoublyLinkedList.h \
+    ../src/binarySearch.h \
+    ../src/BinarySearchTree.h \
+    ../src/main.h
 
 # Archivos fuente (cpp)
 SOURCES += \
-    main.cpp \
-    sorting.cpp \
-    DoublyLinkedList.cpp \
-    binarySearch.cpp \
-    BinarySearchTree.cpp
+    ../src/main.cpp \
+    ../src/sorting.cpp \
+    ../src/DoublyLinkedList.cpp \
+    ../src/binarySearch.cpp \
+    ../src/BinarySearchTree.cpp
 
 # Configuración para compilar en modo C++11 o superior
 CONFIG += c++11
